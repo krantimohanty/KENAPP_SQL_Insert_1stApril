@@ -1,0 +1,245 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dot_inactive">
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feedback Details"
+            android:layout_marginTop="7dp"
+            android:typeface="sans"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/edtfeedname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:hint="Name"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtfeedemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:hint="Email ID"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            android:maxLines="3"
+            android:minLines="2"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="5dp" />
+
+        <EditText
+            android:id="@+id/edtfeedph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:hint="Phone"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            android:maxLines="3"
+            android:minLines="2"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="5dp" />
+
+        <EditText
+            android:id="@+id/edtfeedmobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:hint="Mobile No."
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            android:maxLines="3"
+            android:minLines="2"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="5dp" />
+
+        <EditText
+            android:id="@+id/edtfeedaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:hint="Address"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            android:maxLines="3"
+            android:minLines="2"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="5dp"  />
+
+        <EditText
+            android:id="@+id/edtfeedstate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:hint="State"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:inputType="textMultiLine"
+        android:maxLines="3"
+        android:minLines="2"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="5dp" />
+
+        <EditText
+            android:id="@+id/edtfeedcountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:hint="Country"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            android:maxLines="3"
+            android:minLines="2"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="5dp" />
+
+        <EditText
+            android:id="@+id/edtfeedsubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:hint="Subject"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            android:maxLines="3"
+            android:minLines="2"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="5dp" />
+
+        <EditText
+            android:id="@+id/edtfeedmessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:hint="Your Message"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            android:maxLines="3"
+            android:minLines="2"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btnbg"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:layout_margin="2dp"
+                android:padding="7dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnadd"
+                android:text="Add" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:background="@drawable/btnbg"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:padding="7dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnupdate"
+                android:text="Update" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btnbg"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:layout_margin="2dp"
+                android:padding="7dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btndelete"
+                android:text="Delete" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/pbbar" />
+
+        <ListView
+            android:id="@+id/lstfeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#808080"
+            android:layout_marginTop="5dp"
+            android:dividerHeight="1dp"
+            android:padding="5dp">
+
+        </ListView>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
